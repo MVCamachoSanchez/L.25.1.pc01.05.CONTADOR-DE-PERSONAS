@@ -1,4 +1,4 @@
-export default class Cl_persona{
+export default class Cl_mPersona{
     constructor(nombre, sexo){
         this.nombre = nombre;
         this.sexo = sexo;
