@@ -11,8 +11,8 @@ export default class Cl_persona{
         return this._nombre;
     }
 
-    set sexo(sexo){
-        this._sexo = sexo;
+    set sexo(s){
+        this._sexo = s.toUpperCase();
     }
     get sexo(){
         return this._sexo;

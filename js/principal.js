@@ -8,7 +8,7 @@ Cantidad de hombres: 5
 Cantidad de mujeres: 7 */
 
 import Cl_persona from "./Cl_persona.js";
-import Cl_conteo from "./Cl_conteo.js";
+import Cl_grupo from "./Cl_grupo.js";
 
 let persona1 = new Cl_persona("Luisa", "F");
 let persona2 = new Cl_persona("Ana", "F");
@@ -23,21 +23,21 @@ let persona10 = new Cl_persona("Liz", "F");
 let persona11 = new Cl_persona("Marcos", "M");
 let persona12 = new Cl_persona("Leo", "M");
 
-let conteo = new Cl_conteo();
+let grupo= new Cl_grupo();
 
-conteo.procesarPersonas(persona1);
-conteo.procesarPersonas(persona2);
-conteo.procesarPersonas(persona3);
-conteo.procesarPersonas(persona4);
-conteo.procesarPersonas(persona5);
-conteo.procesarPersonas(persona6);
-conteo.procesarPersonas(persona7);
-conteo.procesarPersonas(persona8);
-conteo.procesarPersonas(persona9);
-conteo.procesarPersonas(persona10);
-conteo.procesarPersonas(persona11);
-conteo.procesarPersonas(persona12);
+grupo.procesarPersonas(persona1);
+grupo.procesarPersonas(persona2);
+grupo.procesarPersonas(persona3);
+grupo.procesarPersonas(persona4);
+grupo.procesarPersonas(persona5);
+grupo.procesarPersonas(persona6);
+grupo.procesarPersonas(persona7);
+grupo.procesarPersonas(persona8);
+grupo.procesarPersonas(persona9);
+grupo.procesarPersonas(persona10);
+grupo.procesarPersonas(persona11);
+grupo.procesarPersonas(persona12);
 
-alert(`Cantidad de personas: ${conteo.cantidadDePersonas()}
-<br> Cantidad de hombre: ${conteo.cantidadDeHombres()}
-<br> Cntidad de mujeres: ${conteo.cnatidadDeMujeres()}`)
+alert(`Cantidad de personas: ${grupo.cantidadDePersonas()}
+<br> Cantidad de hombre: ${grupo.cantidadDeHombres()}
+<br> Cntidad de mujeres: ${grupo.cnatidadDeMujeres()}`)

@@ -1,13 +1,10 @@
-export default class Cl_conteo{
+export default class Cl_grupo{
     constructor(){
-        this.cntPersonas = 0;
         this.cntMujeres = 0;
         this.cntHombre = 0;
     }
 
     procesarPersonas(person){
-        //Contas las personas
-        this.cntPersonas++;
 
         //Contar las mujeres
         if(person.sexo == "F")
@@ -19,7 +16,7 @@ export default class Cl_conteo{
     }
 
     cantidadDePersonas(){
-        return this.cntPersonas;
+        return this.cntHombre + this.cntMujeres;
     }
 
     cnatidadDeMujeres(){
